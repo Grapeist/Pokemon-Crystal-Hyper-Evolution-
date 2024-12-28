@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw LinkigCordDesc
+	dw LinkingCordDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
