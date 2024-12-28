@@ -2118,6 +2118,7 @@ CyndaquilEvosAttacks:
 
 QuilavaEvosAttacks:
 	db EVOLVE_LEVEL, 36, TYPHLOSION
+	db EVOLVE_ITEM, MOON_STONE, TYPHLOSIONH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -3354,4 +3355,19 @@ CelebiEvosAttacks:
 	db 30, FUTURE_SIGHT
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
+	db 0 ; no more level-up moves
+
+TyphlosionhEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, LEER
+	db 1, SMOKESCREEN
+	db 1, EMBER
+	db 6, SMOKESCREEN
+	db 12, EMBER
+	db 21, QUICK_ATTACK
+	db 31, FLAME_WHEEL
+	db 36, SHADOW_BALL
+	db 45, SWIFT
+	db 60, FLAMETHROWER
 	db 0 ; no more level-up moves
