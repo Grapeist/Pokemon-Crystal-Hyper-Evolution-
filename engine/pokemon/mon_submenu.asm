@@ -489,7 +489,43 @@ Can_Use_Sweet_Scent:
 	ld a, MONMENUITEM_SWEETSCENT
 	call AddMonMenuItem
 	ret
-	
+
+CanUseDig:
+; Step 1: Location Check
+	call GetMapEnvironment
+	cp CAVE
+	jr z, .valid_location
+	cp DUNGEON
+	ret nz ; fail, not inside cave or dungeon
+
+.valid_location
+; Step 2: Check if Mon knows Move
+	ld a, DIG
+	call CheckMonKnowsMove
+	and a
+	jr z, .yes
+
+; Step 3: Check if TM/HM is in bag
+	ld a, TM_DIG
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	ret nc ; .fail ; TM not in bag
+
+; Step 4: Check if Mon can learn Dig via TM/HM/Move Tutor
+	ld a, DIG
+	call CheckMonCanLearn_TM_HM
+	jr c, .yes
+
+; Step 5: Check if Mon can learn move via LVL-UP
+	ld a, DIG
+	call CheckLvlUpMoves
+	ret c ; fail
+.yes
+	ld a, MONMENUITEM_DIG
+	call AddMonMenuItem
+	ret
+
 CanUseTeleport:
 ; Step 1: Location Check
 	call GetMapEnvironment
