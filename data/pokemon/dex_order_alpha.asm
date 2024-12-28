@@ -229,6 +229,7 @@ AlphabeticalPokedexOrder:
 	db TOGETIC
 	db TOTODILE
 	db TYPHLOSION
+	db TYPHLOSIONH
 	db TYRANITAR
 	db TYROGUE
 	db UMBREON
