@@ -256,6 +256,5 @@ PokemonPicPointers::
 	dba_pics CelebiFrontpic, CelebiBackpic
 	dba_pics TyphlosionhFrontpic, TyphlosionhBackpic
 	assert_table_length NUM_POKEMON
-	dba_pics ; unused
 	dba_pics EggPic ; Egg has no back sprite
 	assert_table_length EGG
