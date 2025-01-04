@@ -1,4 +1,4 @@
-	db TYPHLOSIONH ; 157
+	db TYPHLOSIONH ; 252
 
 	db  73,  84,  78, 95, 119,  85
 	;   hp  atk  def  spd  sat  sdf
