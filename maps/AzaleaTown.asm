@@ -248,14 +248,14 @@ AzaleaTownRivalBeforeText:
 	line "thing."
 
 	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	line "Rainbow ROCKET"
+	cont "has arrived?"
 
 	para "What? You beat"
 	line "them? Hah! Quit"
-	cont "lying."
+	cont "joking."
 
-	para "You're not joking?"
+	para "You're not lieing?"
 	line "Then let's see how"
 	cont "good you are."
 	done
@@ -267,7 +267,7 @@ AzaleaTownRivalWinText:
 	para "Listen, you. You"
 	line "only won because"
 
-	para "my #MON were"
+	para "my #MON are"
 	line "weak."
 	done
 
@@ -282,15 +282,15 @@ AzaleaTownRivalAfterText:
 	line "strong and wipe"
 	cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "That goes for"
+	line "RAINBOW ROCKET"
 
-	para "They act big and"
-	line "tough in a group."
+	para "as well, they're"
+	line "tough in a group,"
 
 	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	line "alone and they're"
+	cont "easy to beat."
 
 	para "I hate them all."
 
@@ -307,18 +307,13 @@ AzaleaTownRivalLossText:
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
-
-	para "Aren't I a good"
-	line "Samaritan?"
+	text "I'm standing gaurd"
 	done
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	line "RAINBOW ROCKET?!"
+	cont "We're so stong!"
 
 	para "Aren't you glad I"
 	line "told you that?"
@@ -329,9 +324,9 @@ AzaleaTownGrampsTextBefore:
 	line "disappeared from"
 	cont "town…"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "I heard team"
+	line "Rocket took "
+	cont "them somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
@@ -373,7 +368,7 @@ AzaleaTownYoungsterText:
 AzaleaTownSlowpokeText1:
 	text "SLOWPOKE: …"
 
-	para "<……> <……> <……>"
+	para "pokey slowy poke"
 	done
 
 AzaleaTownSlowpokeText2:
@@ -425,10 +420,10 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "RAINDANCE WELL"
 
 	para "Also known as the"
-	line "RAINMAKER WELL."
+	line "SLOWPOKE WELL."
 
 	para "Locals believe"
 	line "that a SLOWPOKE's"
